@@ -10,7 +10,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AnimeHorizon",
-  description: "Vos animés préférés, et tout ça au même endroit.",
+  description: "Vos animés préférés au même endroit.",
 };
 
 export default function RootLayout({
