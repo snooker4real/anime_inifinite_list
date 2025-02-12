@@ -13,7 +13,7 @@ function Hero() {
         />
           <h1 className="sm:text-6xl text-5xl text-white lg:max-w-lg font-bold leading-[120%]">
               Découvrez les <span className="red-gradient">Univers Fascinants</span>
-              de l'Anime
+              de l&#39;Animé
           </h1>
       </div>
       <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
