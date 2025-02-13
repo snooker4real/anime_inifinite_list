@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default function RootLayout({
         <main className="max-w-7xl mx-auto bg-[#0F1117]">
           <Hero />
           {children}
+          <Analytics />
           <Footer />
         </main>
       </body>
