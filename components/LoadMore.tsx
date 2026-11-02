@@ -8,7 +8,7 @@ import AnimeCard from "@/components/AnimeCard";
 
 let page = 2;
 
-export type AnimeCard = JSX.Element;
+export type AnimeCard = React.JSX.Element;
 
 function LoadMore() {
     const {ref, inView} = useInView();
